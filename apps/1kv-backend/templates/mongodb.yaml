@@ -28,11 +28,11 @@ spec:
 
             auth:
               enabled: true
-              rootPassword: <path:vaults/k8s-community-secrets/items/otv-kusama#mongo-root-password>
-              username: <path:vaults/k8s-community-secrets/items/otv-kusama#mongo-username>
-              password: <path:vaults/k8s-community-secrets/items/otv-kusama#mongo-password>
-              database: <path:vaults/k8s-community-secrets/items/otv-kusama#mongo-db>
-              replicaSetKey: <path:vaults/k8s-community-secrets/items/otv-kusama#mongo-rs-key>
+              rootPassword: test
+              username: test
+              password: test
+              database: test
+              replicaSetKey: test
 
             directoryPerDB: true
 
